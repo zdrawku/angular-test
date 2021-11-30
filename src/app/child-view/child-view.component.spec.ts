@@ -2,7 +2,7 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { FormsModule } from '@angular/forms';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 
-import { IgxCardModule, IgxAvatarModule, IgxButtonModule, IgxIconModule, IgxRadioModule, IgxSelectModule } from 'igniteui-angular';
+import { IgxCardModule, IgxAvatarModule, IgxButtonModule, IgxIconModule, IgxRadioModule, IgxSelectModule, IgxGridModule, IgxActionStripModule } from 'igniteui-angular';
 import { ChildViewComponent } from './child-view.component';
 
 describe('ChildViewComponent', () => {
@@ -12,7 +12,7 @@ describe('ChildViewComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       declarations: [ ChildViewComponent ],
-      imports: [ NoopAnimationsModule, FormsModule, IgxCardModule, IgxAvatarModule, IgxButtonModule, IgxIconModule, IgxRadioModule, IgxSelectModule ]
+      imports: [ NoopAnimationsModule, FormsModule, IgxCardModule, IgxAvatarModule, IgxButtonModule, IgxIconModule, IgxRadioModule, IgxSelectModule, IgxGridModule, IgxActionStripModule ]
     })
     .compileComponents();
   });
