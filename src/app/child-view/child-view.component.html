@@ -44,3 +44,8 @@
   <igx-select-item value="Option" text="Option"></igx-select-item>
   <igx-select-item value="Option" text="Option"></igx-select-item>
 </igx-select>
+<igx-grid [data]="northwindCategories" [allowFiltering]="true" filterMode="excelStyleFilter" [autoGenerate]="false" width="800px" height="400px" displayDensity="cosy" primaryKey="categoryID" class="grid">
+  <igx-column field="categoryID" header="categoryID" title="categoryID" dataType="number" [sortable]="true"></igx-column>
+  <igx-column field="description" header="description" title="description" dataType="string" [sortable]="true"></igx-column>
+  <igx-column field="name" header="name" title="name" dataType="string" [sortable]="true"></igx-column>
+</igx-grid>

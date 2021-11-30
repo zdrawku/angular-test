@@ -34,3 +34,10 @@
   min-width: min-content;
   height: max-content;
 }
+.grid {
+  width: 800px;
+  height: 400px;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}

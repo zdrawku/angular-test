@@ -4,7 +4,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-import { IgxIconModule as , IgxAvatarModule as , IgxButtonModule as , IgxListModule as , IgxButtonModule as , IgxIconModule as , IgxAvatarModule as , IgxInputGroupModule as , IgxSelectModule as , IgxCardModule as , IgxAvatarModule as , IgxButtonModule as , IgxIconModule as , IgxRadioModule as , IgxSelectModule as , IgxButtonModule as , IgxIconModule as , IgxAvatarModule as  } from 'igniteui-angular';
+import { IgxIconModule as , IgxAvatarModule as , IgxButtonModule as , IgxListModule as , IgxButtonModule as , IgxIconModule as , IgxAvatarModule as , IgxInputGroupModule as , IgxSelectModule as , IgxCardModule as , IgxAvatarModule as , IgxButtonModule as , IgxIconModule as , IgxRadioModule as , IgxSelectModule as , IgxGridModule as , IgxActionStripModule as , IgxButtonModule as , IgxIconModule as , IgxAvatarModule as  } from 'igniteui-angular';
 import { FormsModule as , FormsModule as , FormsModule as , FormsModule as  } from '@angular/forms';
 import { MyInfoComponent } from './my-info/my-info.component';
 import { ChildViewComponent } from './child-view/child-view.component';
@@ -29,7 +29,9 @@ import { ChildViewComponent } from './child-view/child-view.component';
     IgxInputGroupModule,
     IgxSelectModule,
     IgxCardModule,
-    IgxRadioModule
+    IgxRadioModule,
+    IgxGridModule,
+    IgxActionStripModule
   ],
   providers: [],
   bootstrap: [AppComponent]
