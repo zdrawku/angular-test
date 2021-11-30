@@ -3,6 +3,10 @@
   display: flex;
   align-items: stretch;
 }
+.content {
+  min-height: 50px;
+  min-width: 50px;
+}
 .card {
   width: 320px;
   height: max-content;
@@ -10,8 +14,8 @@
   flex-shrink: 0;
 }
 .actions {
-  min-width: 50px;
   min-height: 40px;
+  min-width: 50px;
 }
 .avatar {
   color: var(--igx-grays-800);
@@ -33,4 +37,8 @@
 .button {
   min-width: min-content;
   height: max-content;
+}
+.text {
+  height: max-content;
+  min-width: min-content;
 }
