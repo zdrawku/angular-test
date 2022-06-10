@@ -1,4 +1,4 @@
-# people-app
+# untitled-app-6
 
 This project was generated with [App Builder Code Gen](https://www.infragistics.com/products/appbuilder).
 
